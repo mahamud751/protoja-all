@@ -14,6 +14,22 @@ const Blogs = new mongoose.Schema(
     photos: {
       type: [String],
     },
+    contents: [
+      {
+        title: {
+          type: String,
+          required: true,
+        },
+        description: {
+          type: String,
+          required: true,
+        },
+        images: {
+          type: [String],
+          default: [],
+        },
+      },
+    ],
   },
   { timestamps: true }
 );
