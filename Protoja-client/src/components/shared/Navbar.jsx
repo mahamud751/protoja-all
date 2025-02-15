@@ -85,7 +85,7 @@ const Navbar = () => {
                   <Link href="/contact">About Us</Link>
                 </li>
                 <li className="mil-has-children">
-                  <Link href="#">Blog</Link>
+                  <Link href="/blog">Blog</Link>
                   {/* <ul>
                     <li>
                       <Link href="/story">Story timeline</Link>

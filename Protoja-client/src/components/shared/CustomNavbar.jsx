@@ -73,12 +73,12 @@ const CustomNavbar = () => {
             </Link>
 
             <Link
-              href="#"
+              href="/blog"
               className="block py-2 px-3 text-black lg:p-0 lg:dark:hover:text-neutral-700"
             >
               Blog
             </Link>
-          </ul>
+          </ul>   
         </div>
       </div>
     </nav>
