@@ -1,12 +1,13 @@
 import Image from "next/image";
 import UserCentricDesign from "./UserCentricDesign";
 import Faq from "./Faq";
+import Overview from "./Overview";
 
 export default function Branding() {
   return (
     <>
       {/* Branding Section */}
-      <div className="bg-white text-center py-10 px-6">
+      <div className="bg-white text-center py-10">
         {/* Title */}
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
           Branding and Mobile app for <br className="hidden md:block" /> myHydration Platform
@@ -24,11 +25,12 @@ export default function Branding() {
             alt="Mobile App Design"
             width={600}
             height={400}
-            className="rounded-lg mx-auto w-full max-w-3xl"
+            className="rounded-lg  w-full "
           />
         </div>
       </div>
-
+      {/* Overview */}
+      <Overview/>
       {/* MyHydration Overview Section */}
       <div className="bg-gradient-to-r from-black to-gray-900 text-white py-16 px-6 md:px-10">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">

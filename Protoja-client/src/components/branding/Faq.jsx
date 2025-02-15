@@ -3,6 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import MockupImage from "./MockupImage";
+import Info from "./Info";
 
 export default function Faq() {
     const [openIndex, setOpenIndex] = useState(null);
@@ -152,20 +153,11 @@ export default function Faq() {
             </div>
             <MockupImage />
             {/* Branding Info */}
-            <div className="bg-[#111111] text-white py-16 px-6 md:px-10">
-                <div className="grid grid-cols-12">
-                  <div className="col-span-6"></div>
-                    <div className="col-span-6">
-                        <h2 className="text-3xl md:text-4xl font-semibold text-white">Branding</h2>
-            
-                        <p className="text-gray-400 mt-4 text-sm md:text-base leading-relaxed">
-                            The problem is Costwise previously had an unorganized management system.
-                            Navigating was much more complex, and UI was one of the issues.
-                            Besides this, the previous version did not have any AI-bot, which we had to maintain.
-                        </p>
-                    </div>
-                </div>
-            </div>
+
+            <Info bgColor={"bg-[#111111]"} textColor={"text-white"} tittle={`Branding`} description={`  The problem is Costwise previously had an unorganized management system.
+            Navigating was much more complex, and UI was one of the issues.
+            Besides this, the previous version did not have any AI-bot, which we had to maintain.`} />
+
         </>
     );
 }
