@@ -12,6 +12,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$scroll$2f$modules$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-scroll/modules/index.js [app-client] (ecmascript)"); // Importing from react-scroll
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-icons/fa6/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$intersection$2d$observer$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-intersection-observer/dist/index.mjs [app-client] (ecmascript)"); // Importing InView from react-intersection-observer
 ;
 var _s = __turbopack_refresh__.signature();
@@ -21,21 +22,22 @@ var _s = __turbopack_refresh__.signature();
 ;
 ;
 ;
+;
 function BlogDetails() {
     _s();
     const [activeLink, setActiveLink] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "grid grid-cols-12 gap-8",
+        className: "grid grid-cols-12 gap-8 my-10",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "col-span-4 bg-white p-6 shadow-lg rounded-xl sticky top-0 h-screen overflow-y-auto",
+                className: "col-span-4 bg-white p-6 shadow-lg rounded-xl sticky top-20 h-screen overflow-y-auto",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                         className: "text-2xl font-semibold text-orange-600 mb-4",
                         children: "Table of Contents"
                     }, void 0, false, {
                         fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                        lineNumber: 15,
+                        lineNumber: 16,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -50,12 +52,12 @@ function BlogDetails() {
                                     children: "Introduction"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                    lineNumber: 18,
+                                    lineNumber: 19,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                lineNumber: 17,
+                                lineNumber: 18,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -67,12 +69,12 @@ function BlogDetails() {
                                     children: "Software and Tools"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                    lineNumber: 28,
+                                    lineNumber: 29,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                lineNumber: 27,
+                                lineNumber: 28,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -84,12 +86,12 @@ function BlogDetails() {
                                     children: "Other Resources"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                    lineNumber: 38,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                lineNumber: 37,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -101,63 +103,61 @@ function BlogDetails() {
                                     children: "Consultations"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                    lineNumber: 48,
+                                    lineNumber: 49,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                lineNumber: 47,
+                                lineNumber: 48,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                        lineNumber: 16,
+                        lineNumber: 17,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "mt-8 flex justify-start space-x-4",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/assets/icons/icon1.png",
-                                alt: "Icon 1",
-                                width: 24,
-                                height: 24
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaLink"], {
+                                className: "w-7 h-7 p-1 bg-base-100 text-black rounded-full border-2 border-gray-100"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                lineNumber: 59,
+                                lineNumber: 61,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/assets/icons/icon2.png",
-                                alt: "Icon 2",
-                                width: 24,
-                                height: 24
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaXTwitter"], {
+                                className: "w-7 h-7 p-1 bg-base-100 text-black rounded-full border-2 border-gray-100"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                lineNumber: 65,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/assets/icons/icon3.png",
-                                alt: "Icon 3",
-                                width: 24,
-                                height: 24
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaFacebook"], {
+                                className: "w-7 h-7 p-1 bg-base-100 text-black rounded-full border-2 border-gray-100"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                lineNumber: 71,
+                                lineNumber: 63,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaLinkedin"], {
+                                className: "w-7 h-7 p-1 bg-base-100 text-black rounded-full border-2 border-gray-100"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/blogDetails/BlogDetails.js",
+                                lineNumber: 64,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                        lineNumber: 58,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                lineNumber: 14,
+                lineNumber: 15,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -175,7 +175,7 @@ function BlogDetails() {
                                 children: "Introduction"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                lineNumber: 88,
+                                lineNumber: 79,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -183,192 +183,94 @@ function BlogDetails() {
                                 children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget tincidunt purus. Sed vehicula, tortor a tincidunt efficitur, risus turpis egestas dui, at euismod felis leo vel nulla. Quisque ullamcorper leo erat, sed fermentum neque facilisis sit amet. Aenean a lorem sit amet nulla auctor efficitur. Mauris volutpat magna id lectus lobortis, eu suscipit dui scelerisque. Cras gravida, nunc at vehicula lacinia, velit risus porttitor nunc, sed hendrerit risus est non mi."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
+                                lineNumber: 80,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex justify-center  my-5",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    src: "/assets/blog-image/blog-details1.png" // Example image
+                                    ,
+                                    alt: "Magestic Logo",
+                                    width: 500,
+                                    height: 500,
+                                    className: ""
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/blogDetails/BlogDetails.js",
+                                    lineNumber: 91,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/blogDetails/BlogDetails.js",
                                 lineNumber: 89,
                                 columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                        lineNumber: 83,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$intersection$2d$observer$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["InView"], {
-                        as: "section",
-                        id: "software-and-tools",
-                        onChange: (inView)=>{
-                            if (inView) setActiveLink("software-and-tools");
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center space-x-4",
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("blockquote", {
+                                className: "text-lg text-gray-800 italic font-bold",
                                 children: [
+                                    `"In a world older and more complex than ours they move finished and complete, gifted with dimensions of the senses we have
+            never attained, trying to voice what shall never have!"`,
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-16 h-16",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            src: "/assets/blog-image/Magestic-logo.png" // Example image
-                                            ,
-                                            alt: "Magestic Logo",
-                                            width: 64,
-                                            height: 64,
-                                            className: "rounded-full"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                            lineNumber: 105,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                        lineNumber: 104,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex items-center mt-6",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "text-2xl font-semibold text-gray-900",
-                                                children: "Magestic.xyz"
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                src: "/assets/blog-image/author.png",
+                                                width: 60,
+                                                height: 60,
+                                                className: "rounded-full",
+                                                alt: "Author"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                                lineNumber: 114,
+                                                lineNumber: 107,
                                                 columnNumber: 15
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-gray-600 mt-2",
-                                                children: "Magestic.xyz is a modern tool for creating beautiful websites with ease. The platform allows developers and designers to collaborate and create websites faster than ever before. It offers advanced tools, templates, and design elements for all types of users."
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "ml-3 text-sm text-gray-600",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "font-semibold",
+                                                        children: "Md Rafatul Islam"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/blogDetails/BlogDetails.js",
+                                                        lineNumber: 115,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        children: "Product Designer"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/blogDetails/BlogDetails.js",
+                                                        lineNumber: 116,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                                lineNumber: 115,
+                                                lineNumber: 114,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                        lineNumber: 113,
+                                        lineNumber: 106,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                lineNumber: 103,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mt-4 grid grid-cols-3 gap-4",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/assets/blog-image/icon1.png",
-                                        alt: "Icon 1",
-                                        width: 50,
-                                        height: 50
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                        lineNumber: 123,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/assets/blog-image/icon2.png",
-                                        alt: "Icon 2",
-                                        width: 50,
-                                        height: 50
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                        lineNumber: 124,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/assets/blog-image/icon3.png",
-                                        alt: "Icon 3",
-                                        width: 50,
-                                        height: 50
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                        lineNumber: 125,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/assets/blog-image/icon4.png",
-                                        alt: "Icon 4",
-                                        width: 50,
-                                        height: 50
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                        lineNumber: 126,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/assets/blog-image/icon5.png",
-                                        alt: "Icon 5",
-                                        width: 50,
-                                        height: 50
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                        lineNumber: 127,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/assets/blog-image/icon6.png",
-                                        alt: "Icon 6",
-                                        width: 50,
-                                        height: 50
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                        lineNumber: 128,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                lineNumber: 122,
+                                lineNumber: 101,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                        lineNumber: 98,
+                        lineNumber: 74,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$intersection$2d$observer$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["InView"], {
-                        as: "section",
-                        id: "other-resources",
+                        className: "mt-3",
+                        id: "software-and-tools",
                         onChange: (inView)=>{
-                            if (inView) setActiveLink("other-resources");
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("blockquote", {
-                                className: "text-lg text-gray-800 italic",
-                                children: "In a world older and more complex than ours they move finished and complete, gifted with dimensions of the senses we have never attained, trying to voice what shall never have!"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                lineNumber: 138,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-                                className: "mt-4 text-gray-600",
-                                children: [
-                                    "— ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        children: "Daniel Bregman"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                        lineNumber: 142,
-                                        columnNumber: 52
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                lineNumber: 142,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                        lineNumber: 133,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$intersection$2d$observer$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["InView"], {
-                        as: "section",
-                        id: "consultations",
-                        onChange: (inView)=>{
-                            if (inView) setActiveLink("consultations");
+                            if (inView) setActiveLink("software-and-tools");
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -376,7 +278,7 @@ function BlogDetails() {
                                 children: "Software and Tools"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                lineNumber: 151,
+                                lineNumber: 134,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -384,25 +286,25 @@ function BlogDetails() {
                                 children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin, eros et fringilla iaculis, felis nunc condimentum eros, nec fermentum dui nisl id elit. Curabitur euismod metus eu ante facilisis, in faucibus odio vehicula. Integer vitae eros vitae tortor malesuada suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin, eros et fringilla iaculis, felis nunc condimentum eros."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                                lineNumber: 152,
+                                lineNumber: 135,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                        lineNumber: 146,
+                        lineNumber: 129,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-                lineNumber: 81,
+                lineNumber: 72,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/blogDetails/BlogDetails.js",
-        lineNumber: 12,
+        lineNumber: 13,
         columnNumber: 5
     }, this);
 }
