@@ -16,7 +16,7 @@ var _s = __turbopack_refresh__.signature();
 "use client";
 ;
 ;
-function CategoryTabs() {
+function CategoryTabs({ onTabChange }) {
     _s();
     const [activeTab, setActiveTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("View all");
     const categories = [
@@ -26,23 +26,27 @@ function CategoryTabs() {
         "UX Design",
         "UI Design"
     ];
+    const handleTabClick = (category)=>{
+        setActiveTab(category);
+        onTabChange(category); // Pass the selected category to the parent
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "grid grid-cols-12 border-b border-gray-200 pb-2 mt-3",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "col-span-10 flex space-x-6",
                 children: categories.map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        onClick: ()=>setActiveTab(category),
+                        onClick: ()=>handleTabClick(category),
                         className: `text-gray-600 pb-2 transition ${activeTab === category ? "text-orange-600 font-semibold border-b-2 border-orange-500" : "hover:text-gray-800"}`,
                         children: category
                     }, category, false, {
                         fileName: "[project]/src/components/blogs/CategoryTabs.jsx",
-                        lineNumber: 15,
+                        lineNumber: 26,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/blogs/CategoryTabs.jsx",
-                lineNumber: 13,
+                lineNumber: 24,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -54,29 +58,29 @@ function CategoryTabs() {
                             children: "Most recent"
                         }, void 0, false, {
                             fileName: "[project]/src/components/blogs/CategoryTabs.jsx",
-                            lineNumber: 29,
+                            lineNumber: 43,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ai$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AiOutlineDown"], {}, void 0, false, {
                             fileName: "[project]/src/components/blogs/CategoryTabs.jsx",
-                            lineNumber: 32,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/blogs/CategoryTabs.jsx",
-                    lineNumber: 28,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/blogs/CategoryTabs.jsx",
-                lineNumber: 27,
+                lineNumber: 41,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/blogs/CategoryTabs.jsx",
-        lineNumber: 11,
+        lineNumber: 22,
         columnNumber: 5
     }, this);
 }

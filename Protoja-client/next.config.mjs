@@ -1,16 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        remotePatterns: [
-          {
-            protocol: "https",
-            hostname: "**",
-          },
-        ],
+  images: {
+    domains: ["res.cloudinary.com", "i.ibb.co", "dsmartuniforms.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
       },
-      devIndicators: {
-        appIsrStatus: false,
-      },
+    ],
+  },
+  devIndicators: {
+    appIsrStatus: false,
+  },
 };
 
 export default nextConfig;

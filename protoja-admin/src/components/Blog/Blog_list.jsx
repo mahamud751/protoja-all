@@ -123,7 +123,7 @@ const Blog_list = (props) => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const { data } = await axios.get(`https://api.yarnlink.com/api/blogs`, {
+        const { data } = await axios.get(`http://localhost:8002/api/blogs`, {
           mode: "cors",
         });
         setData(data);

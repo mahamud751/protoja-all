@@ -4,12 +4,15 @@ import { TINY_MCE_EDITOR_INIT } from "../utils/constants";
 import axios from "axios";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import { Select, MenuItem, FormControl, InputLabel } from "@mui/material"; // Import MUI components
 
 const Add_Blog = () => {
   const [files, setFiles] = useState("");
   const [details, setDetails] = useState("");
   const [name, setName] = useState("");
   const [link, setLink] = useState("");
+  const [desc, setDesc] = useState("");
+  const [type, setType] = useState(""); // State for type selection
   const [contents, setContents] = useState([
     { title: "", description: "", images: [] },
   ]); // State for contents array
@@ -51,9 +54,10 @@ const Add_Blog = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const data2 = {
-      desc: details,
+      desc: desc,
       name: name,
       link: link,
+      type: type, // Include selected type
       contents: contents, // Include contents array in the data
     };
 
@@ -124,6 +128,42 @@ const Add_Blog = () => {
                   onChange={(e) => setLink(e.target.value)}
                 />
               </div>
+
+              {/* Add Select dropdown for type selection */}
+              <div className="col-md-12 form_sub_stream">
+                <FormControl fullWidth>
+                  <InputLabel id="type-label">Select Type</InputLabel>
+                  <Select
+                    labelId="type-label"
+                    id="type"
+                    value={type}
+                    label="Select Type"
+                    onChange={(e) => setType(e.target.value)}
+                  >
+                    <MenuItem value="use-design">Use Design</MenuItem>
+                    <MenuItem value="product-design">Product Design</MenuItem>
+                    <MenuItem value="ui-design">UI Design</MenuItem>
+                    <MenuItem value="ux-design">UX Design</MenuItem>
+                  </Select>
+                </FormControl>
+              </div>
+              <div className="col-md-12 form_sub_stream">
+                <label
+                  htmlFor="inputState"
+                  className="form-label profile_label3"
+                >
+                  Description
+                </label>
+                <input
+                  type="text"
+                  className="main_form w-100"
+                  name="desc"
+                  value={desc}
+                  placeholder="Blog Description"
+                  onChange={(e) => setDesc(e.target.value)}
+                />
+              </div>
+
               <div className="col-md-12 form_sub_stream">
                 <label
                   htmlFor="inputState"
@@ -137,14 +177,6 @@ const Add_Blog = () => {
                   name="img"
                   onChange={(e) => setFiles(e.target.files)}
                   multiple
-                />
-              </div>
-              <div className="col-md-12 form_sub_stream">
-                <Editor
-                  apiKey="9i9siri6weyxjml0qbccbm35m7o5r42axcf3lv0mbr0k3pkl"
-                  init={TINY_MCE_EDITOR_INIT}
-                  value={details}
-                  onEditorChange={(newValue) => setDetails(newValue)}
                 />
               </div>
 
